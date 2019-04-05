@@ -1,0 +1,53 @@
+nav{
+	background:white;
+
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+ }
+}  
+
+a{
+	color: #008080;
+}
+
+
+h1{
+	background-color:#008080;
+	width:175px;
+	text-align: center;
+	color:white;
+	font-size: 35px
+	}
+
+body{
+	background-color: rgba(229,199,165,0.10);
+	}
+
+
+h2{
+	color:#008080;
+	border-bottom: 2px solid #008080
+	}
+
+h3{
+	color: #008080;
+	border-bottom: 2px solid #008080
+	}
+
+.white_background{
+	background-color:white;
+	padding: 20px
+	margin: auto;
+}
+
+.border{
+	border: 5px;
+	border-color: #008080;
+}
+
+
